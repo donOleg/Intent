@@ -14,7 +14,6 @@ html(lang='ru-RU')
     <!-- build:css css/main.min.css -->
     link(rel='stylesheet' type='text/css' href='bower/normalize-css/normalize.css')
     link(rel='stylesheet' type='text/css' href='css/jquery.bxslider.css')
-    //- link(rel='stylesheet' type='text/css' href='bower/bootstrap/dist/css/bootstrap.css')
     link(rel='stylesheet' type='text/css' href='css/main.css')
     <!-- endbuild -->
     <!-- build:css css/vendor.min.css -->
@@ -54,10 +53,13 @@ html(lang='ru-RU')
       .section
         ul.bxslider
           li
-            .bxslider_head
-              h2.h_title1 Place Your Description Text 
-              h2.h_title2 Here. Great Spot to Tell 
-              h2.h_title3 About Deals. 
+            ul.bxslider_head
+              li.h_title 
+                span Place Your Description Text 
+              li.h_title 
+                span Here. Great Spot to Tell 
+              li.h_title 
+                span About Deals. 
             img(src="img/foto1.jpg", alt="")
           li
             img(src="img/foto1.jpg", alt="")
@@ -99,6 +101,40 @@ html(lang='ru-RU')
               img(src="img/slide9.png", alt="")
             a(href="#" data-slide-index="9" class="bx-pager_link")
               img(src="img/slide10.png", alt="")
+      .content
+        .collums.clearfix
+          .collums_item
+            span.collums_head.c-bg1 Awesome Sliders
+            p.
+              Lorem ipsum dolor sit amet, at mea eius corpora, at eam munere facilisi omittantur. Nemore accusam usu no, ei nec vidit com mune constituto. Te usu inani volumus, eum albucius menandri at, sed apeirian percipitur ad.
+          .collums_item
+            span.collums_head.c-bg2 Modern Theme
+            p.
+              Lorem ipsum dolor sit amet, at mea eius corpora, at eam munere facilisi omittantur. Nemore accusam usu no, ei nec vidit com mune constituto. Te usu inani volumus, eum albucius menandri at, sed apeirian percipitur ad.
+          .collums_item
+            span.collums_head.c-bg3 Customize It
+            p.
+              Lorem ipsum dolor sit amet, at mea eius corpora, at eam munere facilisi omittantur. Nemore accusam usu no, ei nec vidit com mune constituto. Te usu inani volumus, eum albucius menandri at, sed apeirian percipitur ad.
+        .section_impression
+          p make an <span class="impression">impression</span> that shines
+        .container_tabs
+            .tabs
+              span.tab All
+              span.tab Print
+              span.tab Photography
+              span.tab Web
+              span.tab Animation
+            .tab_content
+              .nav_item
+                p 120 130 140 150 160
+              .nav_item
+                p 130
+              .nav_item
+                p 140
+              .nav_item
+                p 150
+              .nav_item
+                p 160
 
 
 
@@ -107,7 +143,6 @@ html(lang='ru-RU')
     <!-- build:js js/vendor.js --> 
     <script src="bower/jquery/dist/jquery.js"></script>
     <script src="js/jquery.bxslider.js"></script>
-    //- <script src="bower/bootstrap/dist/js/bootstrap.js"></script>
     <!-- endbuild -->
     <!-- build:js js/main.js --> 
     script(src='./js/main.js')

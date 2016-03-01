@@ -7,9 +7,22 @@
   font-style: normal; }
 
 @font-face {
+  font-family: 'Bitter-Regular';
+  src: url("../fonts/Bitter/Bitter-Regular.eot");
+  src: url("../fonts/Bitter/Bitter-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Bitter/Bitter-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
   font-family: 'Bitter-Bold';
   src: url("../fonts/Bitter/Bitter-Bold.eot");
   src: url("../fonts/Bitter/Bitter-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Bitter/Bitter-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url("../fonts/HelveticaNeue.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 
@@ -126,24 +139,68 @@ body, html {
   margin-left: 0; }
 
 .bxslider_head {
-  width: 35%;
+  width: 90%;
   position: absolute;
   left: 30px;
-  top: 25%; }
+  top: 25%;
+  margin: 0;
+  padding: 0;
+  list-style-type: none; }
 
-.bxslider_head h2 {
-  width: auto;
-  margin: 1px 0;
+.h_title {
+  margin: 11px 0; }
+
+.h_title span {
   padding: 5px 10px;
   color: #fff;
+  font-size: 24px;
   background-color: rgba(0, 0, 0, 0.7);
   font-family: 'Bitter-Bold'; }
 
-.bxslider_head .h_title1 {
-  width: 99%; }
+.content {
+  margin: 0 30px;
+  border: 1px solid #dfdfdf; }
 
-.bxslider_head .h_title2 {
-  width: 84%; }
+.collums {
+  padding: 2.5%; }
 
-.bxslider_head .h_title3 {
-  width: 48%; }
+.collums_item {
+  width: 30%;
+  margin-left: 5%;
+  float: left;
+  font-family: 'HelveticaNeue';
+  color: #5c5c5c;
+  font-size: 14px; }
+
+.collums_item:first-child {
+  margin-left: 0; }
+
+.collums_head {
+  height: 31px;
+  line-height: 33px;
+  display: block;
+  padding-left: 45px;
+  font-family: 'Bitter-Regular';
+  font-weight: bold;
+  color: #252525;
+  font-size: 18px; }
+
+.c-bg1 {
+  background: url("../img/collums_icon1.png") no-repeat left center; }
+
+.c-bg2 {
+  background: url("../img/collums_icon2.png") no-repeat left center; }
+
+.c-bg3 {
+  background: url("../img/collums_icon3.png") no-repeat left center; }
+
+.section_impression {
+  text-align: center;
+  font-size: 18px;
+  font-family: 'Bitter-Bold';
+  color: #252424; }
+
+span.impression {
+  padding: 7px 12px;
+  background-color: #ea5a4b;
+  color: #fff; }
