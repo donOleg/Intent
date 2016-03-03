@@ -26,6 +26,12 @@
   font-weight: normal;
   font-style: normal; }
 
+@font-face {
+  font-family: 'HelveticaNeueBold';
+  src: url("../fonts/HelveticaNeueBold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -77,13 +83,13 @@ body, html {
       width: 26px;
       height: 20px; }
     .social-list .social-list_item:nth-child(1) a {
-      background: url("..//img/tw_icon.png") no-repeat center center; }
+      background: url("../img/tw_icon.png") no-repeat center center; }
     .social-list .social-list_item:nth-child(2) a {
-      background: url("..//img/fb_icon.png") no-repeat center center; }
+      background: url("../img/fb_icon.png") no-repeat center center; }
     .social-list .social-list_item:nth-child(3) a {
-      background: url("..//img/db_icon.png") no-repeat center center; }
+      background: url("../img/db_icon.png") no-repeat center center; }
     .social-list .social-list_item:nth-child(4) a {
-      background: url("..//img/rss_icon.png") no-repeat center center; }
+      background: url("../img/rss_icon.png") no-repeat center center; }
 
 .header_nav {
   position: relative;
@@ -263,8 +269,131 @@ span.impression {
   background: url("../img/tabs_foto8.jpg") no-repeat center -25px; }
 
 .footer {
-  padding: 50px;
+  padding: 60px 30px 30px 30px;
   background-color: #222528;
   border-top: 5px solid #ea5a4b;
   margin-top: -30px;
   z-index: 10; }
+
+.f-elem {
+  float: left;
+  margin-left: 24px; }
+
+.f-elem:first-child {
+  margin-left: 0; }
+
+.elem_header {
+  display: block;
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'HelveticaNeueBold'; }
+
+.footer_posts {
+  width: 31%; }
+
+.posts_list {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+.posts_item {
+  padding: 15px 25px 15px 0;
+  color: #adadad;
+  font-size: 14px;
+  font-family: 'Bitter-Bold';
+  border-top: 1px solid #3b3b3b; }
+
+.posts_item:first-child {
+  padding-top: 0;
+  border-top: none; }
+
+.footer_about {
+  width: 32%; }
+
+.footer_about p {
+  color: #adadad;
+  font-size: 14px;
+  font-family: 'Bitter-Bold'; }
+
+.footer_social {
+  width: 32%; }
+
+.social_block {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+.social_item {
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  margin: 0 0 5px 5px; }
+
+.social_item:nth-child(8n+1) {
+  margin-left: 0; }
+
+.social_item_link {
+  display: block;
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/social_icons.png");
+  background-repeat: no-repeat; }
+
+.l-fb {
+  background-position: -35px 0; }
+
+.l-tw {
+  background-position: -71px 0; }
+
+.l-email {
+  background-position: -108px 0; }
+
+.l-tumb {
+  background-position: 0 -33px; }
+
+.l-path {
+  background-position: -36px -33px; }
+
+.l-vimeo {
+  background-position: -72px -33px; }
+
+.l-zer {
+  background-position: -108px -33px; }
+
+.l-pic {
+  background-position: 0 -67px; }
+
+.l-stum {
+  background-position: -36px -67px; }
+
+.l-skype {
+  background-position: -72px -67px; }
+
+.l-reddit {
+  background-position: -108px -67px; }
+
+.l-ever {
+  background-position: 0 -101px; }
+
+.l-behan {
+  background-position: -36px -101px; }
+
+.l-dribb {
+  background-position: -72px -101px; }
+
+.l-digg {
+  background-position: -108px -101px; }
+
+.l-blog {
+  background-position: 0 -135px; }
+
+.l-flick {
+  background-position: -36px -135px; }
+
+.l-link {
+  background-position: -72px -135px; }
+
+.l-gogle {
+  background-position: -108px -135px; }

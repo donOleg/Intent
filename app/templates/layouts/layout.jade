@@ -26,138 +26,195 @@ html(lang='ru-RU')
     <![endif]-->
 
     .wrapper
-      .header
-        .header_top
-          ul.social-list
-            li.social-list_item
-              a(href="https://twitter.com" class="social-list_item__link" target="_blank")
-            li.social-list_item
-              a(href="https://www.facebook.com" class="social-list_item__link" target="_blank")
-            li.social-list_item
-              a(href="https://dribbble.com/" class="social-list_item__link" target="_blank")
-            li.social-list_item
-              a(href="https://ru.wikipedia.org/wiki/RSS" class="social-list_item__link" target="_blank")
-        .header_nav.clearfix
-          .header_nav__logo
-            img( src="img/logo.png" alt="logo")
-          .header_nav__menu
-            ul.nav-list
-              li.nav-list_item
-                a(href="#" class="nav-list_item__link active") Home 
-              li.nav-list_item
-                a(href="#" class="nav-list_item__link") Blog
-              li.nav-list_item
-                a(href="#" class="nav-list_item__link") Portfolio
-              li.nav-list_item
-                a(href="#" class="nav-list_item__link") Contact
-      .section
-        ul.bxslider
-          li
-            ul.bxslider_head
-              li.h_title 
-                span Place Your Description Text 
-              li.h_title 
-                span Here. Great Spot to Tell 
-              li.h_title 
-                span About Deals. 
-            img(src="img/foto1.jpg", alt="")
-          li
-            img(src="img/foto1.jpg", alt="")
-          li
-            img(src="img/foto1.jpg", alt="")
-          li
-            img(src="img/foto1.jpg", alt="")
-          li
-            img(src="img/foto1.jpg", alt="")
-          li
-            img(src="img/foto1.jpg", alt="")
-          li
-            img(src="img/foto1.jpg", alt="")
-          li
-            img(src="img/foto1.jpg", alt="")
-          li
-            img(src="img/foto1.jpg", alt="")
-          li
-            img(src="img/foto1.jpg", alt="")
-        .slide__control
-          #bx-pager
-            a(href="#" data-slide-index="0" class="bx-pager_link")
-              img(src="img/slide1.png", alt="")
-            a(href="#" data-slide-index="1" class="bx-pager_link")
-              img(src="img/slide2.png", alt="")
-            a(href="#" data-slide-index="2" class="bx-pager_link")
-              img(src="img/slide3.png", alt="")
-            a(href="#" data-slide-index="3" class="bx-pager_link")
-              img(src="img/slide4.png", alt="")
-            a(href="#" data-slide-index="4" class="bx-pager_link")
-              img(src="img/slide5.png", alt="")
-            a(href="#" data-slide-index="5" class="bx-pager_link")
-              img(src="img/slide6.png", alt="")
-            a(href="#" data-slide-index="6" class="bx-pager_link")
-              img(src="img/slide7.png", alt="")
-            a(href="#" data-slide-index="7" class="bx-pager_link")
-              img(src="img/slide8.png", alt="")
-            a(href="#" data-slide-index="8" class="bx-pager_link")
-              img(src="img/slide9.png", alt="")
-            a(href="#" data-slide-index="9" class="bx-pager_link")
-              img(src="img/slide10.png", alt="")
-      .content
-        .collums.clearfix
-          .collums_item
-            span.collums_head.c-bg1 Awesome Sliders
-            p.
-              Lorem ipsum dolor sit amet, at mea eius corpora, at eam munere facilisi omittantur. Nemore accusam usu no, ei nec vidit com mune constituto. Te usu inani volumus, eum albucius menandri at, sed apeirian percipitur ad.
-          .collums_item
-            span.collums_head.c-bg2 Modern Theme
-            p.
-              Lorem ipsum dolor sit amet, at mea eius corpora, at eam munere facilisi omittantur. Nemore accusam usu no, ei nec vidit com mune constituto. Te usu inani volumus, eum albucius menandri at, sed apeirian percipitur ad.
-          .collums_item
-            span.collums_head.c-bg3 Customize It
-            p.
-              Lorem ipsum dolor sit amet, at mea eius corpora, at eam munere facilisi omittantur. Nemore accusam usu no, ei nec vidit com mune constituto. Te usu inani volumus, eum albucius menandri at, sed apeirian percipitur ad.
-        .section_impression
-          p make an <span class="impression">impression</span> that shines
-        .container_tabs
-            .tabs
-              span.tab All
-              span.tab Print
-              span.tab Photography
-              span.tab Web
-              span.tab Animation
-            .tab_content
-              .nav_item.clearfix
-                .nav_item_wrap.item1
-                .nav_item_wrap.item2
-                .nav_item_wrap.item3
-                .nav_item_wrap.item4
-                .nav_item_wrap.item5
-                .nav_item_wrap.item6
-                .nav_item_wrap.item7
-                .nav_item_wrap.item8
-              .nav_item.clearfix
-                .nav_item_wrap.item2
-                .nav_item_wrap.item5
-              .nav_item.clearfix
-                .nav_item_wrap.item3
-                .nav_item_wrap.item6
-                .nav_item_wrap.item8
-              .nav_item.clearfix
-                .nav_item_wrap.item1
-                .nav_item_wrap.item4
-              .nav_item.clearfix
-                .nav_item_wrap.item7
-      .footer
+      .content_wrapper
+        .header
+          .header_top
+            ul.social-list
+              li.social-list_item
+                a(href="https://twitter.com" class="social-list_item__link" target="_blank")
+              li.social-list_item
+                a(href="https://www.facebook.com" class="social-list_item__link" target="_blank")
+              li.social-list_item
+                a(href="https://dribbble.com/" class="social-list_item__link" target="_blank")
+              li.social-list_item
+                a(href="https://ru.wikipedia.org/wiki/RSS" class="social-list_item__link" target="_blank")
+          .header_nav.clearfix
+            .header_nav__logo
+              img( src="img/logo.png" alt="logo")
+            .header_nav__menu
+              ul.nav-list
+                li.nav-list_item
+                  a(href="#" class="nav-list_item__link active") Home 
+                li.nav-list_item
+                  a(href="#" class="nav-list_item__link") Blog
+                li.nav-list_item
+                  a(href="#" class="nav-list_item__link") Portfolio
+                li.nav-list_item
+                  a(href="#" class="nav-list_item__link") Contact
+        .section
+          ul.bxslider
+            li
+              ul.bxslider_head
+                li.h_title 
+                  span Place Your Description Text 
+                li.h_title 
+                  span Here. Great Spot to Tell 
+                li.h_title 
+                  span About Deals. 
+              img(src="img/foto1.jpg", alt="")
+            li
+              img(src="img/foto1.jpg", alt="")
+            li
+              img(src="img/foto1.jpg", alt="")
+            li
+              img(src="img/foto1.jpg", alt="")
+            li
+              img(src="img/foto1.jpg", alt="")
+            li
+              img(src="img/foto1.jpg", alt="")
+            li
+              img(src="img/foto1.jpg", alt="")
+            li
+              img(src="img/foto1.jpg", alt="")
+            li
+              img(src="img/foto1.jpg", alt="")
+            li
+              img(src="img/foto1.jpg", alt="")
+          .slide__control
+            #bx-pager
+              a(href="#" data-slide-index="0" class="bx-pager_link")
+                img(src="img/slide1.png", alt="")
+              a(href="#" data-slide-index="1" class="bx-pager_link")
+                img(src="img/slide2.png", alt="")
+              a(href="#" data-slide-index="2" class="bx-pager_link")
+                img(src="img/slide3.png", alt="")
+              a(href="#" data-slide-index="3" class="bx-pager_link")
+                img(src="img/slide4.png", alt="")
+              a(href="#" data-slide-index="4" class="bx-pager_link")
+                img(src="img/slide5.png", alt="")
+              a(href="#" data-slide-index="5" class="bx-pager_link")
+                img(src="img/slide6.png", alt="")
+              a(href="#" data-slide-index="6" class="bx-pager_link")
+                img(src="img/slide7.png", alt="")
+              a(href="#" data-slide-index="7" class="bx-pager_link")
+                img(src="img/slide8.png", alt="")
+              a(href="#" data-slide-index="8" class="bx-pager_link")
+                img(src="img/slide9.png", alt="")
+              a(href="#" data-slide-index="9" class="bx-pager_link")
+                img(src="img/slide10.png", alt="")
+        .content
+          .collums.clearfix
+            .collums_item
+              span.collums_head.c-bg1 Awesome Sliders
+              p.
+                Lorem ipsum dolor sit amet, at mea eius corpora, at eam munere facilisi omittantur. Nemore accusam usu no, ei nec vidit com mune constituto. Te usu inani volumus, eum albucius menandri at, sed apeirian percipitur ad.
+            .collums_item
+              span.collums_head.c-bg2 Modern Theme
+              p.
+                Lorem ipsum dolor sit amet, at mea eius corpora, at eam munere facilisi omittantur. Nemore accusam usu no, ei nec vidit com mune constituto. Te usu inani volumus, eum albucius menandri at, sed apeirian percipitur ad.
+            .collums_item
+              span.collums_head.c-bg3 Customize It
+              p.
+                Lorem ipsum dolor sit amet, at mea eius corpora, at eam munere facilisi omittantur. Nemore accusam usu no, ei nec vidit com mune constituto. Te usu inani volumus, eum albucius menandri at, sed apeirian percipitur ad.
+          .section_impression
+            p make an <span class="impression">impression</span> that shines
+          .container_tabs
+              .tabs
+                span.tab All
+                span.tab Print
+                span.tab Photography
+                span.tab Web
+                span.tab Animation
+              .tab_content
+                .nav_item.clearfix
+                  .nav_item_wrap.item1
+                  .nav_item_wrap.item2
+                  .nav_item_wrap.item3
+                  .nav_item_wrap.item4
+                  .nav_item_wrap.item5
+                  .nav_item_wrap.item6
+                  .nav_item_wrap.item7
+                  .nav_item_wrap.item8
+                .nav_item.clearfix
+                  .nav_item_wrap.item2
+                  .nav_item_wrap.item5
+                .nav_item.clearfix
+                  .nav_item_wrap.item3
+                  .nav_item_wrap.item6
+                  .nav_item_wrap.item8
+                .nav_item.clearfix
+                  .nav_item_wrap.item1
+                  .nav_item_wrap.item4
+                .nav_item.clearfix
+                  .nav_item_wrap.item7
+      .footer.clearfix
+        .footer_posts.f-elem
+          span.elem_header Recent posts
+          ul.posts_list
+            li.posts_item Wedding Photos that Will Blow Your Mind Away.
+            li.posts_item Intent WordPress Theme Features are Amazing.
+            li.posts_item A New Era of Design is Here.
+            li.posts_item Creativio WordPress Theme now Available for Sale.
+        .footer_about.f-elem
+          span.elem_header About intent
+          p.
+            Lorem ipsum dolor sit amet, at mea eius corpora, at eam munere facilisi omittantur. Nemore accusam usu no, ei nec vidit commune constituto. Te usu inani volumus, eum albucius menandri at, sed apeirian percipitur ad. 
+          p.
+            Id vitae regione has. In tollit dicant vim. His ex detracto percipitur, id vis nibh quas illum. Delicata dissentiet ius ne, latine euripidis quaerendum et vis.
+        .footer_social.f-elem
+          span.elem_header Social madia
+          ul.social_block
+            li.social_item
+              a(href="#" class="social_item_link l-rss")
+            li.social_item
+              a(href="#" class="social_item_link l-fb")
+            li.social_item
+              a(href="#" class="social_item_link l-tw")
+            li.social_item
+              a(href="#" class="social_item_link l-email")
+            li.social_item
+              a(href="#" class="social_item_link l-tumb")
+            li.social_item
+              a(href="#" class="social_item_link l-path")
+            li.social_item
+              a(href="#" class="social_item_link l-vimeo")
+            li.social_item
+              a(href="#" class="social_item_link l-zer")
+            li.social_item
+              a(href="#" class="social_item_link l-pic")
+            li.social_item
+              a(href="#" class="social_item_link l-stum")
+            li.social_item
+              a(href="#" class="social_item_link l-skype")
+            li.social_item
+              a(href="#" class="social_item_link l-reddit")
+            li.social_item
+              a(href="#" class="social_item_link l-ever")
+            li.social_item
+              a(href="#" class="social_item_link l-behan")
+            li.social_item
+              a(href="#" class="social_item_link l-dribb")
+            li.social_item
+              a(href="#" class="social_item_link l-digg")
+            li.social_item
+              a(href="#" class="social_item_link l-blog")
+            li.social_item
+              a(href="#" class="social_item_link l-flick")
+            li.social_item
+              a(href="#" class="social_item_link l-link")
+            li.social_item
+              a(href="#" class="social_item_link l-gogle")
 
 
 
 
 
     <!-- build:js js/vendor.js --> 
-    <script src="bower/jquery/dist/jquery.js"></script>
-    <script src="js/jquery.bxslider.js"></script>
+    script(src='bower/jquery/dist/jquery.js')
+    script(src='js/jquery.bxslider.js')
     <!-- endbuild -->
     <!-- build:js js/main.js --> 
-    script(src='./js/main.js')
+    script(src='js/main.js')
     <!-- endbuild -->
 
 
