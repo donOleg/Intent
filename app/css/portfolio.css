@@ -1,0 +1,51 @@
+.pf_top_img {
+  position: relative;
+  max-width: 1020px;
+  overflow: hidden;
+  z-index: 30; }
+
+.pf_head {
+  position: relative;
+  margin: 0 30px;
+  margin-top: -30px;
+  padding: 35px;
+  background-color: #222528;
+  z-index: 40; }
+
+.pf_head h1,
+.pf_head p {
+  margin: 0;
+  font-family: 'Bitter-Bold'; }
+
+.pf_head h1 {
+  color: #fff; }
+
+.pf_head p {
+  color: #d1d0d0; }
+
+.pf_tabs {
+  margin: 25px 0; }
+
+.item9 {
+  background: url("../img/tabs_foto9.jpg") no-repeat -115px -100px; }
+
+.item10 {
+  background: url("../img/tabs_foto10.jpg") no-repeat -50px -15px; }
+
+.item11 {
+  background: url("../img/tabs_foto11.jpg") no-repeat -90px center; }
+
+.item12 {
+  background: url("../img/tabs_foto12.jpg") no-repeat -90px top; }
+
+.item13 {
+  background: url("../img/tabs_foto13.jpg") no-repeat -21px -12px; }
+
+.item14 {
+  background: url("../img/tabs_foto14.jpg") no-repeat -90px -40px; }
+
+.item15 {
+  background: url("../img/tabs_foto15.jpg") no-repeat -90px center; }
+
+.item16 {
+  background: url("../img/tabs_foto16.jpg") no-repeat center center; }

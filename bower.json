@@ -2,10 +2,10 @@
   "name": "newsite",
   "dependencies": {
     "jquery": "1.11",
-    "normalize-css": "normalize.css#~3.0.3"
+    "normalize-css": "normalize.css#~3.0.3",
+    "fancybox": "^2.1.5"
   },
   "devDependencies": {
-    "jquery": "1.11",
-    "bootstrap": "^3.3.6"
+    "jquery": "1.11"
   }
 }

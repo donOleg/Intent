@@ -4,7 +4,120 @@ extends ../layouts/layout
 block title
      | Intent
 
-    
+block content
+  .section
+    ul.bxslider
+      - for (var x = 0; x < 10; x++)
+        li
+          ul.bxslider_head
+            li.h_title 
+              span Place Your Description Text 
+            li.h_title 
+              span Here. Great Spot to Tell 
+            li.h_title 
+              span About Deals. 
+          img(src="img/foto1.jpg", alt="")
+    .slide__control
+      #bx-pager
+        a(href="#" data-slide-index="0" class="bx-pager_link")
+          img(src="img/slide1.png", alt="")
+        a(href="#" data-slide-index="1" class="bx-pager_link")
+          img(src="img/slide2.png", alt="")
+        a(href="#" data-slide-index="2" class="bx-pager_link")
+          img(src="img/slide3.png", alt="")
+        a(href="#" data-slide-index="3" class="bx-pager_link")
+          img(src="img/slide4.png", alt="")
+        a(href="#" data-slide-index="4" class="bx-pager_link")
+          img(src="img/slide5.png", alt="")
+        a(href="#" data-slide-index="5" class="bx-pager_link")
+          img(src="img/slide6.png", alt="")
+        a(href="#" data-slide-index="6" class="bx-pager_link")
+          img(src="img/slide7.png", alt="")
+        a(href="#" data-slide-index="7" class="bx-pager_link")
+          img(src="img/slide8.png", alt="")
+        a(href="#" data-slide-index="8" class="bx-pager_link")
+          img(src="img/slide9.png", alt="")
+        a(href="#" data-slide-index="9" class="bx-pager_link")
+          img(src="img/slide10.png", alt="")
+  .content
+    .collums.clearfix
+      .collums_item
+        span.collums_head.c-bg1 Awesome Sliders
+        p.
+          Lorem ipsum dolor sit amet, at mea eius corpora, at eam munere facilisi omittantur. Nemore accusam usu no, ei nec vidit com mune constituto. Te usu inani volumus, eum albucius menandri at, sed apeirian percipitur ad.
+      .collums_item
+        span.collums_head.c-bg2 Modern Theme
+        p.
+          Lorem ipsum dolor sit amet, at mea eius corpora, at eam munere facilisi omittantur. Nemore accusam usu no, ei nec vidit com mune constituto. Te usu inani volumus, eum albucius menandri at, sed apeirian percipitur ad.
+      .collums_item
+        span.collums_head.c-bg3 Customize It
+        p.
+          Lorem ipsum dolor sit amet, at mea eius corpora, at eam munere facilisi omittantur. Nemore accusam usu no, ei nec vidit com mune constituto. Te usu inani volumus, eum albucius menandri at, sed apeirian percipitur ad.
+    .section_impression
+      p make an <span class="impression">impression</span> that shines
+    .container_tabs
+        .tabs
+          span.tab All
+          span.tab Print
+          span.tab Photography
+          span.tab Web
+          span.tab Animation
+        .tab_content
+          .nav_item.clearfix
+            .nav_item_wrap.item1
+              a(href="img/tabs_foto1.jpg" class="openbox")
+              .item_wrap_hover
+                span Business Cards
+            .nav_item_wrap.item2
+              .item_wrap_hover
+                span Business Cards
+            .nav_item_wrap.item3
+              .item_wrap_hover
+                span Business Cards
+            .nav_item_wrap.item4
+              .item_wrap_hover
+                span Business Cards
+            .nav_item_wrap.item5
+              .item_wrap_hover
+                span Business Cards
+            .nav_item_wrap.item6
+              .item_wrap_hover
+                span Business Cards
+            .nav_item_wrap.item7
+              .item_wrap_hover
+                span Business Cards
+            .nav_item_wrap.item8
+              .item_wrap_hover
+                span Business Cards
+          .nav_item.clearfix
+            .nav_item_wrap.item2
+              .item_wrap_hover
+                span Business Cards
+            .nav_item_wrap.item5
+              .item_wrap_hover
+                span Business Cards
+          .nav_item.clearfix
+            .nav_item_wrap.item3
+              .item_wrap_hover
+                span Business Cards
+            .nav_item_wrap.item6
+              .item_wrap_hover
+                span Business Cards
+            .nav_item_wrap.item8
+              .item_wrap_hover
+                span Business Cards
+          .nav_item.clearfix
+            .nav_item_wrap.item1
+              .item_wrap_hover
+                span Business Cards
+            .nav_item_wrap.item4
+              .item_wrap_hover
+                span Business Cards
+          .nav_item.clearfix
+            .nav_item_wrap.item7
+              .item_wrap_hover
+                span Business Cards
+
 
 
 
