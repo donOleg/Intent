@@ -101,6 +101,10 @@
 	background: #000;
 }
 
+.bxslider > li {
+	margin-top: -15px;
+}
+
 /* DIRECTION CONTROLS (NEXT / PREV) */
 
 .bx-wrapper .bx-prev {

@@ -1,0 +1,142 @@
+$orange: #ea5a4b;
+$gray: #252525;
+
+
+.b-content_head {
+  color: #464646;
+  font-family: 'Bitter-Regular';
+  font-size: 18px;
+  margin: 25px;
+}
+
+.b-content_main {
+  width: 100%;
+  padding: 0 25px 25px;
+}
+
+.b-container_left {
+  width: 67%;
+  float: left;
+  margin-right: 3%;
+}
+
+.b-container_right {
+  width: 30%;
+  float: right;
+}
+
+.b-container_left_tabs,
+.b-container_left_video {
+  width: 100%;
+  margin-bottom: 30px;
+  border-bottom: 5px solid $orange;
+}
+
+.b-container_tabs {
+  border: 1px solid #c7c7c7;
+  margin-bottom: 30px;
+}
+
+.b-tabs {
+  background-color: #222528;
+  text-align: center;
+  padding-top: 60px;
+  margin-bottom: 10px;
+}
+
+.b-tab {
+  display: inline-block;
+  padding: 15px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #8faf32;
+  border-left: 1px solid black;
+}
+
+.b-tab:first-child {
+  border-left: none;
+  border-radius: 5px 0 0 0;
+}
+
+.b-tab:last-child {
+  border-radius: 0 5px 0 0;
+}
+
+.b-tab.active {
+  background-color: #65841f;
+  color: black;
+}
+
+.b-tab_content {
+  height: 200px;
+  background-color: #efefef;
+}
+
+.b-nav_item p {
+  margin: 0;
+}
+
+.b-title_date {
+  width: 25%;
+  float: left;
+}
+
+.b-date_head {
+  margin: 0 0 5px;
+  color: $gray;
+  font-size: 14px;
+  font-family: 'HelveticaNeueBold';
+}
+
+.b-date_title {
+  margin-bottom: 10px;
+  display: block;
+  color: #ea5a4b;
+  font-size: 12px;
+  font-family: 'HelveticaNeueBold';
+}
+
+.b-title_content {
+  width: 75%;
+  float: right;
+}
+
+.b-content_p {
+  margin-top: 0;
+  color: #252525;
+  font-size: 14px;
+  font-family: 'HelveticaNeue';
+}
+
+.b-video_head,
+.b-sound_head {
+  color: #464646;
+  font-family: 'Bitter-Regular';
+  font-size: 18px;
+  margin: 0 0 20px;
+}
+
+.b-video_content {
+  margin-bottom: 30px;
+}
+
+.b-sound_content {
+  margin-bottom: 30px;
+}
+
+.sound_track {
+  width: 100%;
+}
+
+
+
+
+
+
+.b-right_about_head {
+  margin: 0;
+  padding-bottom: 5px;
+  border-bottom: 5px solid $orange;
+}

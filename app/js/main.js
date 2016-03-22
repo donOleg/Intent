@@ -14,6 +14,15 @@ $(document).ready(function() {
   }).eq(0).addClass("active");
 
 
+  var itemB = $(".b-nav_item");
+  itemB.hide().eq(0).show();
+
+  $(".b-tab").click(function(){
+    $(".b-tab").removeClass("active").eq($(this).index()).addClass("active");
+    itemB.hide().eq($(this).index()).fadeIn();
+  }).eq(0).addClass("active");
+
+
  $('.openbox').fancybox({
     openEffect  : 'elastic'
   });
