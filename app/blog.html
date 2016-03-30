@@ -7,11 +7,12 @@
     <title>Intent - Blog</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="img/png" href="img/top.png" sizes="16x16">
+    <link rel="icon" type="img/png" href="img/ficon.png" sizes="16x16">
     <link rel="stylesheet" type="text/css" href="bower/normalize-css/normalize.css">
     <link rel="stylesheet" type="text/css" href="bower/fancybox/source/jquery.fancybox.css">
     <link rel="stylesheet" type="text/css" href="css/jquery.bxslider.css">
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
   </head>
 
   <body>
@@ -37,16 +38,16 @@
               </li>
             </ul>
           </div>
-          <div class="header_nav clearfix">
-            <div class="header_nav__logo"><img src="img/logo.png" alt="logo"></div>
-            <div class="header_nav__menu">
-              <ul class="nav-list">
-                <li class="nav-list_item"><a href="index.html" class="nav-list_item__link active">Home </a></li>
-                <li class="nav-list_item"><a href="blog.html" class="nav-list_item__link">Blog</a></li>
-                <li class="nav-list_item"><a href="portfolio.html" class="nav-list_item__link">Portfolio</a></li>
-                <li class="nav-list_item"><a href="contact.html" class="nav-list_item__link">Contact</a></li>
-              </ul>
-            </div>
+        </div>
+        <div class="nav clearfix">
+          <div class="nav_logo"><img src="img/logo.png" alt="logo"></div>
+          <div class="nav_menu">
+            <ul class="nav-list">
+              <li class="nav-list_item"><a href="index.html" class="nav-item_link">Home </a></li>
+              <li class="nav-list_item active"><a href="blog.html" class="nav-item_link">Blog</a></li>
+              <li class="nav-list_item"><a href="portfolio.html" class="nav-item_link">Portfolio</a></li>
+              <li class="nav-list_item"><a href="contact.html" class="nav-item_link">Contact</a></li>
+            </ul>
           </div>
         </div>
         <div class="pf_top_img"><img src="img/top_img.jpg" alt=""></div>
@@ -99,7 +100,7 @@
               </div>
               <div class="b-container_left_sound">
                 <h3 class="b-sound_head">Sound  Clip  of  Concert</h3>
-                <div class="b-sound_content"><audio controls class="sound_track"><source src="img/Time.mp3" type="audio/mpeg"></audio></div>
+                <div class="b-sound_content"><audio controls class="sound_track"><source src="img/Schiller.mp3" type="audio/mpeg"></audio></div>
                 <div class="b-container_title clearfix">
                   <div class="b-title_date">
                     <p class="b-date_head">Date</p><span class="b-date_title">April 15, 2012 </span>
@@ -119,12 +120,24 @@
                 <p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. Integer nec odio. Praese nt libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem ati.</p>
               </div>
               <div class="b-right_about">
-                <h4 class="b-right_about_head">About  Intent</h4>
-                <p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. Integer nec odio. Praese nt libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem ati.</p>
+                <h4 class="b-right_about_head">Categories</h4>
+                <ul class="b-category_list">
+                  <li class="b-category_item"><a href="#" class="b-category_link">Video <span>(3)</span></a></li>
+                  <li class="b-category_item"><a href="#" class="b-category_link">Sports <span>(5)</span></a></li>
+                  <li class="b-category_item"><a href="#" class="b-category_link">Media <span>(2)</span></a></li>
+                  <li class="b-category_item"><a href="#" class="b-category_link">Entertainment <span>(7)</span></a></li>
+                  <li class="b-category_item"><a href="#" class="b-category_link">Life <span>(4)</span></a></li>
+                  <li class="b-category_item"><a href="#" class="b-category_link">Super Cool Stuff <span>(8)</span></a></li>
+                </ul>
               </div>
               <div class="b-right_about">
-                <h4 class="b-right_about_head">About  Intent</h4>
-                <p>Lorem ipsum dolor sit amet, con se ctetur adipiscing elit. Integer nec odio. Praese nt libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem ati.</p>
+                <h4 class="b-right_about_head">Advertisements</h4>
+                <div class="b-advertise_wrap clearfix">
+                  <div class="b-advertise_item"><span>Advertise Here</span></div>
+                  <div class="b-advertise_item"><span>Advertise Here</span></div>
+                  <div class="b-advertise_item"><span>Advertise Here</span></div>
+                  <div class="b-advertise_item"><span>Advertise Here</span></div>
+                </div>
               </div>
             </div>
           </div>
@@ -146,64 +159,64 @@
         <div class="footer_social f-elem"><span class="elem_header">Social media</span>
           <ul class="social_block">
             <li class="social_item">
-              <a href="#" class="social_item_link l-rss"></a>
+              <a href="https://ru.wikipedia.org/wiki/RSS" target="_blank" class="social_item_link l-rss"></a>
             </li>
             <li class="social_item">
-              <a href="#" class="social_item_link l-fb"></a>
+              <a href="https://www.facebook.com" target="_blank" class="social_item_link l-fb"></a>
             </li>
             <li class="social_item">
-              <a href="#" class="social_item_link l-tw"></a>
+              <a href="https://twitter.com" target="_blank" class="social_item_link l-tw"></a>
             </li>
             <li class="social_item">
-              <a href="#" class="social_item_link l-email"></a>
+              <a href="https://www.yandex.ua" target="_blank" class="social_item_link l-email"></a>
             </li>
             <li class="social_item">
-              <a href="#" class="social_item_link l-tumb"></a>
+              <a href="https://www.tumblr.com" target="_blank" class="social_item_link l-tumb"></a>
             </li>
             <li class="social_item">
-              <a href="#" class="social_item_link l-path"></a>
+              <a href="https://path.com" target="_blank" class="social_item_link l-path"></a>
             </li>
             <li class="social_item">
-              <a href="#" class="social_item_link l-vimeo"></a>
+              <a href="https://vimeo.com" target="_blank" class="social_item_link l-vimeo"></a>
             </li>
             <li class="social_item">
-              <a href="#" class="social_item_link l-zer"></a>
+              <a href="https://zerply.com" target="_blank" class="social_item_link l-zer"></a>
             </li>
             <li class="social_item">
-              <a href="#" class="social_item_link l-pic"></a>
+              <a href="https://picasa.google.com" target="_blank" class="social_item_link l-pic"></a>
             </li>
             <li class="social_item">
-              <a href="#" class="social_item_link l-stum"></a>
+              <a href="http://www.stumbleupon.com" target="_blank" class="social_item_link l-stum"></a>
             </li>
             <li class="social_item">
-              <a href="#" class="social_item_link l-skype"></a>
+              <a href="http://www.skype.com/ru" target="_blank" class="social_item_link l-skype"></a>
             </li>
             <li class="social_item">
-              <a href="#" class="social_item_link l-reddit"></a>
+              <a href="https://www.reddit.com" target="_blank" class="social_item_link l-reddit"></a>
             </li>
             <li class="social_item">
-              <a href="#" class="social_item_link l-ever"></a>
+              <a href="https://evernote.com/intl/ru" target="_blank" class="social_item_link l-ever"></a>
             </li>
             <li class="social_item">
-              <a href="#" class="social_item_link l-behan"></a>
+              <a href="https://www.behance.net" target="_blank" class="social_item_link l-behan"></a>
             </li>
             <li class="social_item">
-              <a href="#" class="social_item_link l-dribb"></a>
+              <a href="https://dribbble.com" target="_blank" class="social_item_link l-dribb"></a>
             </li>
             <li class="social_item">
-              <a href="#" class="social_item_link l-digg"></a>
+              <a href="http://digg.com" target="_blank" class="social_item_link l-digg"></a>
             </li>
             <li class="social_item">
-              <a href="#" class="social_item_link l-blog"></a>
+              <a href="https://www.blogger.com" target="_blank" class="social_item_link l-blog"></a>
             </li>
             <li class="social_item">
-              <a href="#" class="social_item_link l-flick"></a>
+              <a href="https://www.flickr.com" target="_blank" class="social_item_link l-flick"></a>
             </li>
             <li class="social_item">
-              <a href="#" class="social_item_link l-link"></a>
+              <a href="https://www.linkedin.com" target="_blank" class="social_item_link l-link"></a>
             </li>
             <li class="social_item">
-              <a href="#" class="social_item_link l-gogle"></a>
+              <a href="https://www.google.ru" target="_blank" class="social_item_link l-gogle"></a>
             </li>
           </ul>
         </div>
@@ -213,6 +226,7 @@
     <script src="bower/fancybox/source/jquery.fancybox.js"></script>
     <script src="js/jquery.bxslider.js"></script>
     <script src="js/main.js"></script>
+    <script src="js/validate.js"></script>
   </body>
 
 </html>

@@ -4,4 +4,51 @@ block title
      | Intent - Contact
 
 block content
-  h1 Hello World
+  .nav.clearfix
+    .nav_logo
+      img( src="img/logo.png" alt="logo")
+    .nav_menu
+      ul.nav-list
+        li.nav-list_item
+          a(href="index.html" class="nav-item_link") Home 
+        li.nav-list_item
+          a(href="blog.html" class="nav-item_link") Blog
+        li.nav-list_item
+          a(href="portfolio.html" class="nav-item_link") Portfolio
+        li.nav-list_item.active
+          a(href="contact.html" class="nav-item_link") Contact
+  .pf_top_img
+    img(src="img/top_img.jpg", alt="")
+  .pf_head
+    h1 Contact
+    p We are only a click away
+  .content
+    .c-map
+      script(type="text/javascript" charset="utf-8" src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=zcV8UdVP8S2Xar59VBqJNEXdY7YRpAYN&amp;height=400&amp;lang=ru_UA&sourceType=constructor")
+
+    .c-form_wrap.clearfix
+      .c-form_left
+        .c-form_info
+          p.
+            Lorem ipsum dolor sit amet, in consectetur adipiscing elit. Siri Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum.
+        .c-form_adress
+          ul.adress_list
+            li.adress_item Best PSD Freebies
+            li.adress_item 328 Ave C
+            li.adress_item Saskatoon, SK
+            li.adress_item S7R 2V9
+        .c-form_phone
+          ul.phone_list
+            li.phone_item t: (888) 842 - 8356
+            li.phone_item f: (888) 452 - 9257
+            li.phone_item e: info@psdfreebies.com
+      .c-form_right
+        form
+          input(type="text" name="firstname" placeholder="First Name").input
+          input(type="text" name="lastname" placeholder="Last Name").input
+          input(type="email" name="email" placeholder="Email Address").input
+          input(type="url" name="homepage" placeholder="Url").input
+          textarea(name="message" placeholder="Message").textarea
+          input(type="button" value="Submit").button
+
+

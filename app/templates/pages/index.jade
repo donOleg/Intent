@@ -2,9 +2,22 @@
 extends ../layouts/layout
 
 block title
-     | Intent
+     | Intent - Home
 
 block content
+  .nav.clearfix
+    .nav_logo
+      img( src="img/logo.png" alt="logo")
+    .nav_menu
+      ul.nav-list
+        li.nav-list_item.active
+          a(href="index.html" class="nav-item_link") Home 
+        li.nav-list_item
+          a(href="blog.html" class="nav-item_link") Blog
+        li.nav-list_item
+          a(href="portfolio.html" class="nav-item_link") Portfolio
+        li.nav-list_item
+          a(href="contact.html" class="nav-item_link") Contact
   .section
     ul.bxslider
       - for (var x = 0; x < 10; x++)

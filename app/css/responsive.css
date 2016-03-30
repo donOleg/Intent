@@ -1,0 +1,54 @@
+@media (min-width: 640px) and (max-width: 1040px) {
+  .nav_item_wrap {
+    width: 184px;
+    margin: 0 15px 15px 0; }
+  .nav_item_wrap:nth-child(4n+4) {
+    margin-right: 15px; }
+  .bxslider_head {
+    top: 15%; }
+  #bx-pager {
+    padding: 10px; }
+  .bx-pager_link {
+    margin: 10px; }
+  .bx-pager_link:first-child {
+    margin-left: 10px; }
+  .posts_item {
+    font-size: 12px;
+    padding: 15px 25px 10px 0; }
+  .footer_about p {
+    font-size: 12px; }
+  .social_item:nth-child(8n+1) {
+    margin-left: 5px; }
+  .b-advertise_item:nth-child(-2n+5) {
+    margin-left: 5px; } }
+
+@media (min-width: 640px) and (max-width: 767px) {
+  .bxslider_head {
+    top: 5%; }
+  .collums_item {
+    font-size: 13px; }
+  .collums_head {
+    font-size: 14px; }
+  .b-tabs {
+    padding-top: 35px; }
+  .b-tab {
+    padding: 5px;
+    font-size: 11px; }
+  .b-tab_content {
+    font-size: 14px; }
+  .b-container_left,
+  .b-container_right {
+    line-height: 16px; }
+  .b-content_p,
+  .b-right_about p {
+    font-size: 13px; }
+  .b-category_list .b-category_link {
+    font-size: 13px; }
+  .c-form_wrap {
+    font-size: 12px;
+    line-height: 16px; } }
+
+@media (min-width: 768px) and (max-width: 1040px) {
+  .b-tab {
+    padding: 10px;
+    font-size: 12px; } }

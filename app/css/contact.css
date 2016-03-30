@@ -1,0 +1,79 @@
+.c-map {
+  width: 100%;
+  padding: 25px;
+  min-height: 400px; }
+
+.c-form_wrap {
+  padding: 25px;
+  color: #252525;
+  font-size: 14px;
+  line-height: 17px;
+  font-family: 'HelveticaNeue'; }
+  .c-form_wrap .c-form_left {
+    width: 26%;
+    float: left;
+    margin-right: 2%; }
+  .c-form_wrap .c-form_right {
+    width: 72%;
+    float: right; }
+
+.c-form_info,
+.c-form_adress,
+.c-form_phone {
+  margin-bottom: 20px; }
+
+.c-form_info p {
+  margin: 0; }
+
+.adress_list,
+.phone_list {
+  padding: 0;
+  margin: 0;
+  list-style: none; }
+
+.adress_item:first-child {
+  color: #ea5a4b;
+  font-family: 'HelveticaMedium'; }
+
+.input {
+  width: 49%;
+  height: 33px;
+  padding: 0 15px;
+  background-color: #fff;
+  border: solid 1px #252525;
+  margin-left: 2%;
+  margin-bottom: 15px; }
+
+input:nth-child(-2n+5) {
+  margin-left: 0; }
+
+.textarea {
+  width: 100%;
+  height: 200px;
+  padding: 15px;
+  background-color: #fff;
+  border: solid 1px #252525;
+  resize: none;
+  margin-bottom: 15px; }
+
+::-webkit-input-placeholder {
+  color: #252525; }
+
+::-moz-placeholder {
+  color: #252525; }
+
+:-moz-placeholder {
+  color: #252525; }
+
+:-ms-input-placeholder {
+  color: #252525; }
+
+.button {
+  border: none;
+  width: 67px;
+  height: 31px;
+  background-color: #ea5a4b;
+  color: #fff;
+  font-size: 12px;
+  font-family: 'HelveticaMedium';
+  text-transform: uppercase; }
