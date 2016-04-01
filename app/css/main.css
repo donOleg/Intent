@@ -292,6 +292,21 @@ input:nth-child(-2n+5) {
   font-family: 'HelveticaMedium';
   text-transform: uppercase; }
 
+.error {
+  border: solid 1px #ea5a4b; }
+
+.error::-webkit-input-placeholder {
+  color: #ea5a4b; }
+
+.error::-moz-placeholder {
+  color: #ea5a4b; }
+
+.error:-moz-placeholder {
+  color: #ea5a4b; }
+
+.error:-ms-input-placeholder {
+  color: #ea5a4b; }
+
 /* --------- fonts --------- */
 @font-face {
   font-family: 'HelveticaMedium';
@@ -438,10 +453,17 @@ body, html {
 
 .bx-pager_link {
   display: inline-block;
+  width: 75px;
+  height: 75px;
   margin-left: 13px; }
 
 .bx-pager_link:first-child {
   margin-left: 0; }
+
+.bx-pager_link.active {
+  -webkit-box-shadow: 0 0 0 2px #ea5a4b;
+  -moz-box-shadow: 0 0 0 2px #ea5a4b;
+  box-shadow: 0 0 0 2px #ea5a4b; }
 
 .bxslider_head {
   width: 90%;

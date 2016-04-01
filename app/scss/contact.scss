@@ -89,4 +89,12 @@ input:nth-child(-2n+5) {
   text-transform: uppercase;
 }
 
+.error {
+  border: solid 1px #ea5a4b;
+}
+
+.error::-webkit-input-placeholder {color:#ea5a4b;}
+.error::-moz-placeholder          {color:#ea5a4b;}
+.error:-moz-placeholder           {color:#ea5a4b;}
+.error:-ms-input-placeholder      {color:#ea5a4b;}
 

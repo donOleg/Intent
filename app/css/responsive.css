@@ -1,3 +1,51 @@
+@media (min-width: 480px) and (max-width: 639px) {
+  .nav-list_item {
+    margin-left: 5px; }
+  .bxslider_head {
+    top: 5%; }
+  .h_title span {
+    font-size: 15px; }
+  .slide__control {
+    display: none; }
+  .content {
+    margin: -20px 30px; }
+  .collums_item {
+    float: none;
+    width: 100%;
+    margin: 0 0 20px; }
+  .nav_item_wrap {
+    width: 155px;
+    margin: 0 10px 10px 0; }
+  .nav_item_wrap:nth-child(4n+4) {
+    margin-right: 15px; }
+  .tab {
+    margin-left: 5px; }
+  .elem_header {
+    margin-bottom: 10px; }
+  .f-elem {
+    float: none;
+    width: 100%;
+    margin: 0 0 20px; }
+  .posts_item {
+    padding: 15px 25px 10px 0; }
+  .social_item:nth-child(8n+1) {
+    margin-left: 5px; }
+  .b-container_left,
+  .b-container_right {
+    float: none;
+    width: 100%; }
+  .b-tabs {
+    padding-top: 35px; }
+  .b-tab {
+    padding: 5px;
+    font-size: 11px; }
+  .b-advertise_item:nth-child(-2n+5) {
+    margin-left: 5px; }
+  .c-form_wrap .c-form_left,
+  .c-form_wrap .c-form_right {
+    float: none;
+    width: 100%; } }
+
 @media (min-width: 640px) and (max-width: 1040px) {
   .nav_item_wrap {
     width: 184px;

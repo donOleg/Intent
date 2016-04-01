@@ -187,11 +187,19 @@ body, html {
 
 .bx-pager_link {
 	display: inline-block;
+	width: 75px;
+	height: 75px;
 	margin-left: 13px;
 }
 
 .bx-pager_link:first-child {
 	margin-left: 0;
+}
+
+.bx-pager_link.active {
+	-webkit-box-shadow: 0 0 0 2px $orange;
+		 -moz-box-shadow: 0 0 0 2px $orange;
+					box-shadow: 0 0 0 2px $orange;
 }
 
 .bxslider_head {
