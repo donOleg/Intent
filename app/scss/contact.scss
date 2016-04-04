@@ -4,6 +4,9 @@
   list-style: none;
 }
 
+$white: #fff;
+$orange: #ea5a4b;
+$gray: #252525;
 
 .c-map {
   width: 100%;
@@ -13,7 +16,7 @@
 
 .c-form_wrap {
   padding: 25px;
-  color: #252525;
+  color: $gray;
   font-size: 14px;
   line-height: 17px;
   font-family: 'HelveticaNeue';
@@ -44,7 +47,7 @@
 }
 
 .adress_item:first-child {
-  color: #ea5a4b;
+  color: $orange;
   font-family: 'HelveticaMedium';
 }
 
@@ -52,8 +55,8 @@
   width: 49%;
   height: 33px;
   padding: 0 15px;
-  background-color: #fff;
-  border: solid 1px #252525;
+  background-color: $white;
+  border: solid 1px $gray;
   margin-left: 2%;
   margin-bottom: 15px;
 }
@@ -66,35 +69,35 @@ input:nth-child(-2n+5) {
   width: 100%;
   height: 200px;
   padding: 15px;
-  background-color: #fff;
-  border: solid 1px #252525;
+  background-color: $white;
+  border: solid 1px $gray;
   resize: none;
   margin-bottom: 15px;
 }
 
-::-webkit-input-placeholder {color:#252525;}
-::-moz-placeholder          {color:#252525;}
-:-moz-placeholder           {color:#252525;}
-:-ms-input-placeholder      {color:#252525;}
+::-webkit-input-placeholder {color:$gray;}
+::-moz-placeholder          {color:$gray;}
+:-moz-placeholder           {color:$gray;}
+:-ms-input-placeholder      {color:$gray;}
 
 
 .button {
   border: none;
   width: 67px;
   height: 31px;
-  background-color: #ea5a4b;
-  color: #fff;
+  background-color: $orange;
+  color: $white;
   font-size: 12px;
   font-family: 'HelveticaMedium';
   text-transform: uppercase;
 }
 
 .error {
-  border: solid 1px #ea5a4b;
+  border: solid 1px $orange;
 }
 
-.error::-webkit-input-placeholder {color:#ea5a4b;}
-.error::-moz-placeholder          {color:#ea5a4b;}
-.error:-moz-placeholder           {color:#ea5a4b;}
-.error:-ms-input-placeholder      {color:#ea5a4b;}
+.error::-webkit-input-placeholder {color:$orange;}
+.error::-moz-placeholder          {color:$orange;}
+.error:-moz-placeholder           {color:$orange;}
+.error:-ms-input-placeholder      {color:$orange;}
 

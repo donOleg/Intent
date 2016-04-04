@@ -1,5 +1,7 @@
 $orange: #ea5a4b;
 $gray: #252525;
+$white: #fff;
+$black: #000;
 
 @mixin list-off {
   padding: 0;
@@ -55,11 +57,11 @@ $gray: #252525;
   display: inline-block;
   padding: 15px;
   cursor: pointer;
-  color: #fff;
+  color: $white;
   font-size: 14px;
   font-weight: bold;
   background-color: #8faf32;
-  border-left: 1px solid black;
+  border-left: 1px solid $black;
 }
 
 .b-tab:first-child {
@@ -73,7 +75,7 @@ $gray: #252525;
 
 .b-tab.active {
   background-color: #65841f;
-  color: black;
+  color: $black;
 }
 
 .b-tab_content {
@@ -101,7 +103,7 @@ $gray: #252525;
 .b-date_title {
   margin-bottom: 10px;
   display: block;
-  color: #ea5a4b;
+  color: $orange;
   font-size: 12px;
   font-family: 'HelveticaNeueBold';
 }
@@ -113,7 +115,7 @@ $gray: #252525;
 
 .b-content_p {
   margin-top: 0;
-  color: #252525;
+  color: $gray;
   font-size: 14px;
   font-family: 'HelveticaNeue';
 }
@@ -146,7 +148,7 @@ $gray: #252525;
     border-bottom: 5px solid $orange;
   }
   p {
-    color: #252525;
+    color: $gray;
     font-size: 14px;
     font-family: 'HelveticaNeue';
   }
@@ -157,7 +159,7 @@ $gray: #252525;
   @include list-off;
   .b-category_link {
     text-decoration: none;
-    color: #252525;
+    color: $gray;
     font-size: 14px;
     font-family: 'HelveticaNeue';
     span {

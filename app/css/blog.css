@@ -43,7 +43,7 @@
   font-size: 14px;
   font-weight: bold;
   background-color: #8faf32;
-  border-left: 1px solid black; }
+  border-left: 1px solid #000; }
 
 .b-tab:first-child {
   border-left: none;
@@ -54,7 +54,7 @@
 
 .b-tab.active {
   background-color: #65841f;
-  color: black; }
+  color: #000; }
 
 .b-tab_content {
   height: 200px;
