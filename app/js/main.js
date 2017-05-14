@@ -23,8 +23,9 @@ $(document).ready(function() {
   }).eq(0).addClass("active");
 
 
- $('.openbox').fancybox({
-    openEffect  : 'elastic'
+ $('.fancybox').fancybox({
+    openEffect  : 'elastic',
+    cyclic : true
   });
 
 
